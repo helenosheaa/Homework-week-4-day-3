@@ -28,4 +28,5 @@ end
 post '/pizza-orders/:id/delete' do
   PizzaOrder.delete_order(params[:id].to_i)
   erb(:destroy)
+  redirect to ("/pizza-orders")
 end
