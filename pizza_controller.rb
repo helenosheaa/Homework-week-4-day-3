@@ -26,6 +26,6 @@ post '/pizza-orders' do
 end
 #DELETE
 post '/pizza-orders/:id/delete' do
-  @orders = PizzaOrder.delete(params[:id].to_i)
-  erb (:destory)
+  PizzaOrder.delete_order(params[:id].to_i)
+  erb(:destroy)
 end
