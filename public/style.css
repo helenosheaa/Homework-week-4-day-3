@@ -1,0 +1,37 @@
+body {
+  background-color: #E5E6E4;
+  color: #847577;
+}
+
+a {
+  color: #847577;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.display {
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+}
+
+nav {
+  background-color: #B1CC74;
+}

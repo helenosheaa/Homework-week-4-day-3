@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
   <title>Pizza Shop</title>
 </head>
 <body>
   <nav>
     <ul>
       <li> <a href="/pizza-orders">Pizza Orders</a> </li>
+      <li> <a href="/pizza-orders/new">New Order</a> </li>
     </ul>
   </nav>
   <%= yield %>
+  <img class="display" src ="/pizzakitten.jpg" alt="Pizza Kitten">
 </body>
 </html>
